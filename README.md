@@ -20,13 +20,15 @@ You need to first build and install libnl.  You can get it here:
 	http://www.infradead.org/~tgr/libnl/doc/api/index.html
 
 Build libnl:
-	cd <TOPDIR>/libnl-3.2.25
+
+	cd ./libnl-3.2.25
 	make libnl-config
 	make libnl-build
 	make libnl-install
 
 Build netlink devices:
-	cd <TOPDIR>/netlink-devices
+
+	cd ./netlink-devices
 	make netlink-devices-build
 	make netlink-devices-install
 
